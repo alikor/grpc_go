@@ -2,7 +2,6 @@ FROM golang
 
 ENV PATH="/protoc/bin:${PATH}"
 
-
 RUN apt-get update && \ 
     apt-get -y install autoconf automake libtool curl make g++ unzip
 
